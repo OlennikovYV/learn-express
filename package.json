@@ -4,6 +4,9 @@
     "url": "https://github.com/OlennikovYV/learn-express/issues"
   },
   "description": "Learning Express.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
   "homepage": "https://github.com/OlennikovYV/learn-express#readme",
   "keywords": [
     "Docker",
@@ -15,14 +18,16 @@
     "Node.js"
   ],
   "license": "ISC",
-  "main": "index.js",
+  "main": "server.js",
   "name": "learn-express",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OlennikovYV/learn-express.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "docker build . -t express/server",
+    "start": "docker run -p 3000:3000 --name server -d express/server ",
+    "stop": "docker stop server"
   },
   "version": "1.0.0"
 }
