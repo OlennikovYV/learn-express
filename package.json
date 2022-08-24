@@ -1,0 +1,28 @@
+{
+  "author": "Olennikov Yury",
+  "bugs": {
+    "url": "https://github.com/OlennikovYV/learn-express/issues"
+  },
+  "description": "Learning Express.js",
+  "homepage": "https://github.com/OlennikovYV/learn-express#readme",
+  "keywords": [
+    "Docker",
+    "Express",
+    "Express.js",
+    "JS",
+    "javascript",
+    "Node",
+    "Node.js"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "learn-express",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlennikovYV/learn-express.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
